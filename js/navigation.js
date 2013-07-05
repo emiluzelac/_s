@@ -21,7 +21,7 @@
 			container.className = container.className.replace( 'main-small-navigation', 'navigation-main' );
 		} else {
 			button.className += 'toggled-on';
-			menu.className += ' toggled-on';
+			menu.className += 'toggled-on';
 			container.className = container.className.replace( 'navigation-main', 'main-small-navigation' );
 		}
 	};
